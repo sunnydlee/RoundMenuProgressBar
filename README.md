@@ -12,12 +12,15 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
 1. checkout out **RoundMenuProgressBar**, which contains source code and demo
 2. import module **RoundMenuProgressBar** and add dependency:
 
+##Library##
+
   ```
   compile project(':RoundMenuProgressBar')
   ```
 
  
-  **or**
+ ##Gradle##
+
   
   ```
   repositories {
@@ -28,10 +31,27 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
   }
   
   dependencies {
-      ...
-      compile 'com.github.hackware1993:MagicIndicator:1.3.1'
-  }
+	        compile 'com.github.sunnydlee:RoundMenuProgressBar:1.1'
+	}
   ```
+##Maven##
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+  
+  	<dependency>
+	    <groupId>com.github.sunnydlee</groupId>
+	    <artifactId>RoundMenuProgressBar</artifactId>
+	    <version>1.1</version>
+	</dependency>
+
+  
+
+```
   
   
   3. add **RoundMenuProgressBar** to your layout xml:
