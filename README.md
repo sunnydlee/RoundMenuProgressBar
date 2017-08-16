@@ -12,14 +12,14 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
 1. checkout out **RoundMenuProgressBar**, which contains source code and demo
 2. import module **RoundMenuProgressBar** and add dependency:
 
-##Library##
+### Library
 
   ```
   compile project(':RoundMenuProgressBar')
   ```
 
  
- ##Gradle##
+ ### Gradle
 
   
   ```
@@ -34,7 +34,7 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
 	        compile 'com.github.sunnydlee:RoundMenuProgressBar:1.1'
 	}
   ```
-##Maven##
+### Maven
 ```
 	<repositories>
 		<repository>
