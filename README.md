@@ -99,6 +99,34 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
 
 ```
 
+#  Core Methods-核心方法
+
+获取控制按钮：
+```
+mProgressBar.getIvControl();
+```
+
+设置进度：
+```
+mProgressBar.setProgress(progress);
+```
+获取显示进度TextView：
+```
+mProgressBar.getIvControl();
+```
+
+更换待执行功能的图片：
+```
+mProgressBar.setBitmap1(((BitmapDrawable)getResources().getDrawable(R.mipmap.icon_fish1)).getBitmap());
+```
+
+更换正在执行功能的图片：
+```
+mProgressBar.setBitmapRed1(((BitmapDrawable)getResources().getDrawable(R.mipmap.icon_fish1)).getBitmap());
+```
+
+
+
 # License
 
   ```
