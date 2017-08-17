@@ -33,8 +33,9 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
   }
   
   dependencies {
-	        compile 'com.github.sunnydlee:RoundMenuProgressBar:1.1'
+	        compile 'com.github.sunnydlee:RoundMenuProgressBar:1.2'
 	}
+
   ```
 ### Maven
 ```
@@ -48,7 +49,7 @@ Simple steps, you can integrate **RoundMenuProgressBar**:
   	<dependency>
 	    <groupId>com.github.sunnydlee</groupId>
 	    <artifactId>RoundMenuProgressBar</artifactId>
-	    <version>1.1</version>
+	    <version>1.2</version>
 	</dependency>
 
   
